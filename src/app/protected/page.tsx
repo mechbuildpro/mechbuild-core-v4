@@ -1,8 +1,8 @@
 export default function ProtectedPage() {
   return (
-    <main>
-      <h1>🗝️ Protected Page</h1>
-      <p>Bu sayfa giriş yapan kullanıcılar içindir.</p>
+    <main style={{ padding: '2rem' }}>
+      <h1>🔒 Korumalı Alan</h1>
+      <p>Sadece yetkili kullanıcılar bu sayfayı görebilir.</p>
     </main>
   );
 }
