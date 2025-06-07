@@ -1,7 +1,8 @@
 export default function ProtectedPage() {
   return (
-    <div>
-      <h3>Bu sayfa sadece giriş yapmış kullanıcılar içindir.</h3>
-    </div>
+    <main style={{ padding: '2rem' }}>
+      <h1>🔒 Korunan Sayfa</h1>
+      <p>Bu sayfa yalnızca yetkili kullanıcılar tarafından görüntülenebilir.</p>
+    </main>
   );
 }
